@@ -1,4 +1,8 @@
+import 'package:calculator_flutter/widgets/result_screen.dart';
 import 'package:flutter/material.dart';
+
+import './computation_screen.dart';
+import './computation_screen.dart';
 
 class Calculator extends StatelessWidget {
   @override
@@ -7,8 +11,8 @@ class Calculator extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text('Computation Screen'),
-          Text('Result Screen'),
+          ComputationScreen(),
+          ResultScreen(),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
