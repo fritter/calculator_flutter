@@ -10,11 +10,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Calculator',
       home: Scaffold(
-        appBar: AppBar(
-          title: Center(
-            child: Text('Hello World'),
-          ),
-        ),
         body: Calculator(),
       ),
     );
