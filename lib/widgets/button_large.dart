@@ -8,8 +8,8 @@ class ButtonLarge extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 70,
-      width: 140,
+      height: 80,
+      width: 160,
       child: OutlineButton(
         onPressed: () {},
         child: Text(textButton),
